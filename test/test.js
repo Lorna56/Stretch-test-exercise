@@ -6,6 +6,9 @@ describe("Tax Calculation", () => {
       assert.strictEqual(calculateTax(11000), 0);
     });
     it("Should return 20% tax for earnings between 12000 and 36000", () => {
-        assert.strictEqual(calculateTax(20000), 0);
+        assert.strictEqual(calculateTax(20000), 1600);
+      });
+      it("Should return 40% tax for earnings above 36000", () => {
+        assert.strictEqual(calculateTax(40000), 6400);
       });
 });
