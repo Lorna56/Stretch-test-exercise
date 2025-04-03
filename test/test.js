@@ -14,4 +14,7 @@ describe("Tax Calculation", () => {
       it("Should return 0 tax for exactly 12000 earnings", () => {
         assert.strictEqual(calculateTax(12000), 0);
       });
+      it("Should return correct tax for exactly 36000 earnings", () => {
+        assert.strictEqual(calculateTax(36000), 4800);
+      });
 });
