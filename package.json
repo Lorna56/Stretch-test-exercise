@@ -1,0 +1,35 @@
+ {
+    "name": "oop",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "test.js",
+    "scripts": {
+    "test": "mocha"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorna56/fbn.git"
+    },
+    "keywords": [],
+    "author": "Lorna Naula & Sekajja Wavamuno Isaac",
+    "license": "ISC",
+    "bugs": {
+    "url": "https://github.com/Lorna56/fbn/issues"
+    },
+    "homepage": "https://github.com/Lorna56/fbn#readme",
+    "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "chai": "^5.2.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "globals": "^16.0.0",
+    "mocha": "^11.1.0",
+    "typescript-eslint": "^8.28.0"
+    }
+}
