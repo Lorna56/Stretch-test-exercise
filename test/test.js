@@ -11,4 +11,7 @@ describe("Tax Calculation", () => {
       it("Should return 40% tax for earnings above 36000", () => {
         assert.strictEqual(calculateTax(40000), 6400);
       });
+      it("Should return 0 tax for exactly 12000 earnings", () => {
+        assert.strictEqual(calculateTax(12000), 0);
+      });
 });
